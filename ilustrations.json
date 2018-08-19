@@ -1,6 +1,7 @@
 [
     "id":1,
     "members":
+    [
     {
         "id": 1,
         "att2": "Name",
@@ -45,4 +46,5 @@
             [{"id": 7, "title": 1, "location": 1, "date": 1} ]
         }
      }
+    ]
 ]
