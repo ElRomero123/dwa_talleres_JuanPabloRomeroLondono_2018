@@ -15,7 +15,7 @@ window.onload = function()
     request.onload = function() 
     {
         var superHeroes = request.response;
-        alert(superHeroes['members'].length);
+        alert(superHeroes['ilustrations'].length);
     }
 
     document.getElementById('close').onclick = function() 
