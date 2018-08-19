@@ -4,32 +4,32 @@
   [
     {
       "id": 1,
-      "ilustrationsUser1": 
+      "ilustrations": 
       [
-        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
-        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
-        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date", "isDone":false},
-        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date", "isDone":false}
+        {"id":1, "name":"Ilustracion 1 1", "location":"//", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2 1", "location":"//", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3 1", "location":"//", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4 1", "location":"//", "date":"date", "isDone":false}
       ]
     },
     {
       "id": 2,
-      "ilustrationsUser2": 
+      "ilustrations": 
       [
-        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
-        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
-        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date", "isDone":false},
-        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date", "isDone":false}
+        {"id":1, "name":"Ilustracion 1 2", "location":"//", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2 2", "location":"//", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3 2", "location":"//", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4 2", "location":"//", "date":"date", "isDone":false}
       ]
     },
     {
       "id": 3,
-      "ilustrationsUser3": 
+      "ilustrations": 
       [
-        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
-        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
-        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date", "isDone":false},
-        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date", "isDone":false}
+        {"id":1, "name":"Ilustracion 1 3", "location":"//", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2 3", "location":"//", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3 3", "location":"//", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4 3", "location":"//", "date":"date", "isDone":false}
       ]
     }
   ]
