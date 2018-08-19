@@ -4,6 +4,8 @@ window.onload = function()
     document.getElementById('name').innerHTML = "Nombre: " + this.localStorage.getItem("name");
     document.getElementById('username').innerHTML = "Username: " + this.localStorage.getItem("username");
     document.getElementById('email').innerHTML = "Email: " + this.localStorage.getItem("email");
+    var id = this.localStorage.getItem("id");
+    document.getElementById('id').innerHTML = id;
 
     // Cargar ilustraciones del usuario
     var requestURL = 'https://raw.githubusercontent.com/ElRomero123/dwa_talleres_JuanPabloRomeroLondono_2018/master/ilustrations.json';
@@ -12,18 +14,31 @@ window.onload = function()
     request.responseType = 'json';
     request.send();
 
+   
+
     request.onload = function() 
     {
         var superHeroes = request.response;
         var array = superHeroes['users'];
 
-        var ilustrations = array[1].ilustrations;
+        
+        //var userIlustrations = array[int.parse(id)].ilustrations;
 
-        for(var i = 0; i < ilustrations.length; i++)
+        var userIlustrations = array.find(function(element) 
         {
-            alert(ilustrations[i].name);
+             return element = id;
+        });
+
+        console.log(id);
+
+        console.log(userIlustrations);
+
+        /*
+        for(var i = 0; i < userIlustrations.length; i++)
+        {
+            alert(userIlustrations[i].name);
         }
-        alert();
+        */
     }
 
     document.getElementById('close').onclick = function() 
