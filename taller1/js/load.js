@@ -6,6 +6,7 @@ window.onload = function()
     document.getElementById('email').innerHTML = "Email: " + this.localStorage.getItem("email");
     var id = this.localStorage.getItem("id");
     document.getElementById('id').innerHTML = id;
+    // Cargar credenciales del usuario
 
     // Cargar ilustraciones del usuario
     var requestURL = 'https://raw.githubusercontent.com/ElRomero123/dwa_talleres_JuanPabloRomeroLondono_2018/master/ilustrations.json';
@@ -16,23 +17,34 @@ window.onload = function()
 
     request.onload = function() 
     {
-        var superHeroes = request.response;
-        var array = superHeroes['users'];
+        var info = request.response;
+        var ilustrations = info.users;
 
-        var userIlustrations = array.filter(function(element) 
+        var IlustrationsUser = ilustrations.filter(function(element) 
         {
              return element.id == id;
         });
 
-        for(var i = 0; i < userIlustrations.length; i++)
+        var ilustrations = IlustrationsUser[0].ilustrations;
+        var size = ilustrations.length;
+
+        for (var i = 0; i < size; i++)
         {
-            alert(userIlustrations.ilustrations[i].name);
+            loadIlustration(ilustrations[i]);
         }
     }
+    // Cargar ilustraciones del usuario
 
+    // Cerrar sesión
     document.getElementById('close').onclick = function() 
     {  
         document.location.href = "index.html";
         localStorage.clear();
     }
+    // Cerrar sesión 
+}
+
+function loadIlustration(infoIlustration)
+{
+    document.getElementById('contentCard').innerHTML += '<div class="card"> <img class="card-img-top" src="../taller1/img/users/' + infoIlustration.location + '" alt="Card image cap"> <div class="card-body"> <h5 class="card-title">' + infoIlustration.name + '</h5> <p class="card-text"><small class="text-muted">' + infoIlustration.date + '</small></p> </div> </div>';
 }
