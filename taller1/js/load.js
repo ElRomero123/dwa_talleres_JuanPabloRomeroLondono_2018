@@ -14,31 +14,20 @@ window.onload = function()
     request.responseType = 'json';
     request.send();
 
-   
-
     request.onload = function() 
     {
         var superHeroes = request.response;
         var array = superHeroes['users'];
 
-        
-        //var userIlustrations = array[int.parse(id)].ilustrations;
-
-        var userIlustrations = array.find(function(element) 
+        var userIlustrations = array.filter(function(element) 
         {
-             return element = id;
+             return element.id == id;
         });
 
-        console.log(id);
-
-        console.log(userIlustrations);
-
-        /*
         for(var i = 0; i < userIlustrations.length; i++)
         {
-            alert(userIlustrations[i].name);
+            alert(userIlustrations.ilustrations[i].name);
         }
-        */
     }
 
     document.getElementById('close').onclick = function() 
