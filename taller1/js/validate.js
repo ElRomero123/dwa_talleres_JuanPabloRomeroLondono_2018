@@ -34,14 +34,14 @@ function obtain(email,id)
         {
             fetch('https://jsonplaceholder.typicode.com/users/' + id)
             .then(response => response.json())
-            .then(json => validate(json.email, email))
+            .then(json => validate(email, json))
         }
     }
 }
 
-function validate(dbEmail, email)
+function validate(email, json)
 {
-    if(dbEmail == email)
+    if(json.email == email)
     {
         document.getElementById('success').style.display = 'block';
         document.getElementById('success').innerHTML = "Usuario correcto!";
@@ -49,6 +49,12 @@ function validate(dbEmail, email)
         document.getElementById('danger').style.display = 'none';
         document.getElementById('warning').style.display = 'none';
         document.getElementById('warning1').style.display = 'none';
+
+        document.location.href = "ilustration.html";
+        localStorage.setItem("id", json.id);
+        localStorage.setItem("name", json.name);
+        localStorage.setItem("username", json.username);
+        localStorage.setItem("email", json.email);
     }
 
     else
