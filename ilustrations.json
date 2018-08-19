@@ -6,30 +6,30 @@
       "id": 1,
       "ilustrations": 
       [
-        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date"},
-        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date"},
-        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date"},
-        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date"}
+        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date", "isDone":false}
       ]
     },
     {
       "id": 1,
       "ilustrations": 
       [
-        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date"},
-        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date"},
-        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date"},
-        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date"}
+        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date", "isDone":false}
       ]
     },
     {
       "id": 1,
       "ilustrations": 
       [
-        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date"},
-        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date"},
-        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date"},
-        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date"}
+        {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3", "location":"//", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4", "location":"//", "date":"date", "isDone":false}
       ]
     }
   ]
