@@ -1,52 +1,41 @@
-[
+{
+  "squadName": "Super hero squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
     {
-    "id":1,
-    "members":
-    [
-    {
-        "id": 1,
-        "att2": "Name",
-        "ilustrations": 
-        {
-            [{"id": 1, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 2, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 3, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 4, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 5, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 6, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 7, "title": 1, "location": 1, "date": 1} ]
-        }
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
     },
-  
     {
-        "id": 2,
-        "att2": "Name2",
-        "ilustrations": 
-        {
-            [{"id": 1, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 2, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 3, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 4, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 5, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 6, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 7, "title": 1, "location": 1, "date": 1} ]
-        }
-     },
-  
-     {
-        "id": 3,
-        "att2": "Name3",
-        "ilustrations": 
-        {
-            [{"id": 1, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 2, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 3, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 4, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 5, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 6, "title": 1, "location": 1, "date": 1} ],
-            [{"id": 7, "title": 1, "location": 1, "date": 1} ]
-        }
-     }
-    ]
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Eternal Flame",
+      "age": 1000000,
+      "secretIdentity": "Unknown",
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
     }
-]
+  ]
+}
