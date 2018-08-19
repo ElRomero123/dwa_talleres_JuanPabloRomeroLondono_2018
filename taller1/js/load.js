@@ -15,7 +15,15 @@ window.onload = function()
     request.onload = function() 
     {
         var superHeroes = request.response;
-        alert(superHeroes['ilustrations'].length);
+        var array = superHeroes['users'];
+
+        var ilustrations = array[1].ilustrations;
+
+        for(var i = 0; i < ilustrations.length; i++)
+        {
+            alert(ilustrations[i].name);
+        }
+        alert();
     }
 
     document.getElementById('close').onclick = function() 
