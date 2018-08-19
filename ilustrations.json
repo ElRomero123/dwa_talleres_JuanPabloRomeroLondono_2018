@@ -4,7 +4,7 @@
   [
     {
       "id": 1,
-      "ilustrations": 
+      "ilustrationsUser1": 
       [
         {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
         {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
@@ -13,8 +13,8 @@
       ]
     },
     {
-      "id": 1,
-      "ilustrations": 
+      "id": 2,
+      "ilustrationsUser2": 
       [
         {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
         {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
@@ -23,8 +23,8 @@
       ]
     },
     {
-      "id": 1,
-      "ilustrations": 
+      "id": 3,
+      "ilustrationsUser3": 
       [
         {"id":1, "name":"Ilustracion 1", "location":"//", "date":"date", "isDone":false},
         {"id":2, "name":"Ilustracion 2", "location":"//", "date":"date", "isDone":false},
