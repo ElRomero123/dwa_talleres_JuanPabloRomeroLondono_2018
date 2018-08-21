@@ -1,6 +1,6 @@
 Talleres Desarrollo Web Avanzado - Juan Pablo Romero Londoño - ID: 000287960
 
-NOTAS importantes
+NOTAS importantes Taller 1
 
 - El estado de las ilustraciones (finalizado, sin finalizar) se guarda en la caché del navegador. El usuario podrá reiniciar este mientras se encuentre en una sesión. Al cerrar la sesión este estado se pierde y todas las ilustraciones vuelven a su estado default.
 
