@@ -1,0 +1,36 @@
+{
+  "name": "Ilustraciones",
+  "users": 
+  [
+    {
+      "id": 1,
+      "ilustrations": 
+      [
+        {"id":1, "name":"Florero", "location":"11.jpg", "date":"30 de agosto de 2018", "isDone":false},
+        {"id":2, "name":"Para mi novia", "location":"12.jpg", "date":"14 de octubre de 2018", "isDone":false},
+        {"id":3, "name":"Naturaleza", "location":"13.jpg", "date":"18 de octubre de 2018", "isDone":false},
+        {"id":4, "name":"Otras ..", "location":"14.jpg", "date":"6 de septiembre de 2018", "isDone":false}
+      ]
+    },
+    {
+      "id": 2,
+      "ilustrations": 
+      [
+        {"id":1, "name":"Ilustracion 1 2", "location":"21.jpg", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2 2", "location":"22.jpg", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3 2", "location":"23.jpg", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4 2", "location":"24.jpg", "date":"date", "isDone":false}
+      ]
+    },
+    {
+      "id": 3,
+      "ilustrations": 
+      [
+        {"id":1, "name":"Ilustracion 1 3", "location":"31.jpg", "date":"date", "isDone":false},
+        {"id":2, "name":"Ilustracion 2 3", "location":"15.jpg", "date":"date", "isDone":false},
+        {"id":3, "name":"Ilustracion 3 3", "location":"16.jpg", "date":"date", "isDone":false},
+        {"id":4, "name":"Ilustracion 4 3", "location":"25.jpg", "date":"date", "isDone":false}
+      ]
+    }
+  ]
+}
