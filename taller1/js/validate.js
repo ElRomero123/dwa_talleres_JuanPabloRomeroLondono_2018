@@ -10,32 +10,50 @@ window.onload = function()
 
 function obtain(email,id)
 {
-    if(isNaN(id) || id.indexOf('.') != -1)
+    // Obtener el resultado de los condicionales
+    var condition1 = isNaN(id) || id.indexOf('.') != -1;
+    var condition2 = email.indexOf('@') == -1 || email.indexOf('.') == -1;
+    // Obtener el resultado de los condicionales
+
+    if(!condition1 && !condition2)
     {
-        document.getElementById('warning').style.display = 'block';
-        document.getElementById('warning').innerHTML = "Formato de ID incorrecto!";
-
-        //Esconde los mensajes antiguos.
-        document.getElementById('danger').style.display = 'none';
+        fetch('https://jsonplaceholder.typicode.com/users/' + id)
+        .then(response => response.json())
+        .then(json => validate(email, json))
     }
-
+    
     else
     {
-        if(email.indexOf('@') == -1)
+        if(condition2)
         {
             document.getElementById('warning1').style.display = 'block';
-            document.getElementById('warning1').innerHTML = "Correo sin @. Formato incorrecto!";
+            document.getElementById('warning1').innerHTML = "Formato de E-mail incorrecto!";
 
-            //Esconde los mensajes antiguos.
+            //Oculta los otros mensajes
             document.getElementById('danger').style.display = 'none';
+            document.getElementById('warning').style.display = 'none';
+            //Oculta los otros mensajes
+
+            if(condition1)
+            {
+                document.getElementById('warning').style.display = 'block';
+                document.getElementById('warning').innerHTML = "Formato de ID incorrecto!";
+
+                //Oculta los otros mensajes
+                document.getElementById('danger').style.display = 'none';  
+                //Oculta los otros mensajes
+            }
         }
 
         else
         {
-            fetch('https://jsonplaceholder.typicode.com/users/' + id)
-            .then(response => response.json())
-            .then(json => validate(email, json))
-        }
+            document.getElementById('warning').style.display = 'block';
+            document.getElementById('warning').innerHTML = "Formato de ID incorrecto!";
+
+            //Oculta los otros mensajes
+            document.getElementById('danger').style.display = 'none';
+            document.getElementById('warning1').style.display = 'none';
+        }  
     }
 }
 
@@ -43,27 +61,21 @@ function validate(email, json)
 {
     if(json.email == email)
     {
-        document.getElementById('success').style.display = 'block';
-        document.getElementById('success').innerHTML = "Usuario correcto!";
-
-        document.getElementById('danger').style.display = 'none';
-        document.getElementById('warning').style.display = 'none';
-        document.getElementById('warning1').style.display = 'none';
-
         document.location.href = "ilustration.html";
         localStorage.setItem("id", json.id);
         localStorage.setItem("name", json.name);
         localStorage.setItem("username", json.username);
-        localStorage.setItem("email", json.email);
+        localStorage.setItem("email", json.email);  
     }
 
     else
     {
         document.getElementById('danger').style.display = 'block';
-        document.getElementById('danger').innerHTML = "Usuario incorrecto!";
+        document.getElementById('danger').innerHTML = "Usuario NO encontrado!";
 
-        //Esconde los mensajes antiguos.
+        //Oculta los otros mensajes
         document.getElementById('warning').style.display = 'none';
         document.getElementById('warning1').style.display = 'none';
+        //Oculta los otros mensajes
     }
 }
