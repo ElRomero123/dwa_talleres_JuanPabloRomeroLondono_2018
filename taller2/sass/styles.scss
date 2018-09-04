@@ -4,3 +4,75 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 //@import "compass/reset";
+
+body
+{
+    margin: 0px;
+}
+
+header
+{
+    #icono
+    {
+        display:inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: aqua;
+        vertical-align: top;
+    }
+
+    #texto
+    {
+        vertical-align: top;
+        display:inline-block;
+        width: 150px;
+        height: 30px;
+        background-color: aqua;
+    }
+
+    padding: 20px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+}
+
+main
+{
+    #titulo
+    {
+
+    }
+
+    #imagen
+    {
+
+    }
+
+    #caracteristicas
+    {
+
+    }
+}
+
+footer
+{
+    h2
+    {
+
+    }
+
+    div
+    {
+
+    }
+
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: violet;
+    width: 100%;
+    height: 100px;
+}
