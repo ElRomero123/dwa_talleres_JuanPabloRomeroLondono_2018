@@ -3,38 +3,6 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 8, ../sass/styles.scss */
-body {
-  margin: 0px;
-}
-
-/* line 13, ../sass/styles.scss */
-header {
-  padding: 20px;
-  top: 0px;
-  left: 0px;
-  position: fixed;
-  background-color: blue;
-  width: 100%;
-  height: 40px;
-}
-/* line 15, ../sass/styles.scss */
-header #icono {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-color: aqua;
-  vertical-align: top;
-}
-/* line 24, ../sass/styles.scss */
-header #texto {
-  vertical-align: top;
-  display: inline-block;
-  width: 150px;
-  height: 30px;
-  background-color: aqua;
-}
-
-/* line 60, ../sass/styles.scss */
 footer {
   bottom: 0px;
   left: 0px;
@@ -42,4 +10,98 @@ footer {
   background-color: violet;
   width: 100%;
   height: 100px;
+}
+
+/* line 30, ../sass/styles.scss */
+main #pie {
+  width: 100%;
+  height: 150px;
+}
+/* line 38, ../sass/styles.scss */
+main #caracteristica #tituloPpal {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+}
+/* line 45, ../sass/styles.scss */
+main #caracteristica #tituloPpal .elementsTituloPpal {
+  display: inline-block;
+}
+/* line 51, ../sass/styles.scss */
+main #caracteristica #imagen {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+/* line 63, ../sass/styles.scss */
+main #icono #tituloPpal {
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  width: 300px;
+  height: 30px;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+}
+/* line 74, ../sass/styles.scss */
+main #icono #tituloPpal .elementsTituloPpal {
+  display: inline-block;
+}
+/* line 80, ../sass/styles.scss */
+main #icono #imagen {
+  margin: 10px;
+  width: 320px;
+  height: 320px;
+  background-color: orange;
+}
+/* line 89, ../sass/styles.scss */
+main .caja {
+  display: inline-block;
+  margin: 10px;
+}
+/* line 95, ../sass/styles.scss */
+main #cabecera {
+  width: 100%;
+  height: 150px;
+}
+
+/* line 102, ../sass/styles.scss */
+header {
+  padding: 20px;
+  background-color: blue;
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+/* line 104, ../sass/styles.scss */
+header #texto {
+  padding: 5px;
+  width: 170px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+}
+/* line 114, ../sass/styles.scss */
+header #icono {
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+}
+/* line 122, ../sass/styles.scss */
+header div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 137, ../sass/styles.scss */
+body {
+  margin: 0px;
 }
