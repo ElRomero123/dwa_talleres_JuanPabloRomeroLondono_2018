@@ -11,24 +11,46 @@ footer {
   width: 100%;
   height: 100px;
 }
-
+/* line 15, ../sass/styles.scss */
+footer #p4 {
+  background-image: url("../img/025.png");
+}
+/* line 20, ../sass/styles.scss */
+footer #p3 {
+  background-image: url("../img/012.png");
+}
+/* line 25, ../sass/styles.scss */
+footer #p2 {
+  background-image: url("../img/009.png");
+}
 /* line 30, ../sass/styles.scss */
+footer #p1 {
+  background-image: url("../img/007.png");
+}
+/* line 35, ../sass/styles.scss */
+footer div {
+  display: inline-block;
+  width: 143px;
+  height: 143px;
+}
+
+/* line 52, ../sass/styles.scss */
 main #pie {
   width: 100%;
   height: 150px;
 }
-/* line 38, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 main #caracteristica #tituloPpal {
   padding: 10px;
   margin: 10px;
   width: 300px;
   height: 30px;
 }
-/* line 45, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 main #caracteristica #tituloPpal .elementsTituloPpal {
   display: inline-block;
 }
-/* line 51, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 main #caracteristica #imagen {
   padding: 10px;
   margin: 10px;
@@ -36,7 +58,7 @@ main #caracteristica #imagen {
   height: 300px;
   background-color: orange;
 }
-/* line 63, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 main #icono #tituloPpal {
   padding: 10px;
   margin: 10px;
@@ -47,29 +69,30 @@ main #icono #tituloPpal {
   font-family: arial;
   font-size: 20px;
 }
-/* line 74, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 main #icono #tituloPpal .elementsTituloPpal {
   display: inline-block;
 }
-/* line 80, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 main #icono #imagen {
+  background-image: url("../img/006.png");
   margin: 10px;
-  width: 320px;
-  height: 320px;
+  width: 380px;
+  height: 380px;
   background-color: orange;
 }
-/* line 89, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 main .caja {
   display: inline-block;
   margin: 10px;
 }
-/* line 95, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 main #cabecera {
   width: 100%;
   height: 150px;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 header {
   padding: 20px;
   background-color: blue;
@@ -79,7 +102,7 @@ header {
   left: 0px;
   position: fixed;
 }
-/* line 104, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 header #texto {
   padding: 5px;
   width: 170px;
@@ -88,20 +111,20 @@ header #texto {
   font-size: 30px;
   font-family: Arial;
 }
-/* line 114, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 header #icono {
   vertical-align: top;
   width: 60px;
   height: 60px;
   background-color: aqua;
 }
-/* line 122, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 header div {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 body {
   margin: 0px;
 }

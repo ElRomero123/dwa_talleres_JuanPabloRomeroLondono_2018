@@ -12,9 +12,31 @@ footer
 
     }
 
+    #p4
+    {
+        background-image: url('../img/025.png');
+    }
+
+    #p3
+    {
+        background-image: url('../img/012.png');
+    }
+
+    #p2
+    {
+        background-image: url('../img/009.png');
+    }
+
+    #p1
+    {
+        background-image: url('../img/007.png');
+    }
+
     div
     {
-
+        display: inline-block;
+        width: 143px;
+        height: 143px;
     }
 
     bottom: 0px;
@@ -79,9 +101,10 @@ main
 
         #imagen
         {
+            background-image: url('../img/006.png');
             margin: 10px;
-            width: 320px;
-            height: 320px;
+            width: 380px;
+            height: 380px;
             background-color: orange;
         }
     }
