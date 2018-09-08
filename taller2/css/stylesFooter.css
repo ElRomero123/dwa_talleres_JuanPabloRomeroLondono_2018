@@ -1,0 +1,70 @@
+/* line 1, ../sass/stylesFooter.scss */
+footer {
+  padding-top: 10px;
+  padding-left: 50px;
+  background-color: gray;
+  height: 290px;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+}
+/* line 5, ../sass/stylesFooter.scss */
+footer #p4 div {
+  background-position: 0 -300px;
+}
+/* line 13, ../sass/stylesFooter.scss */
+footer #p3 div {
+  background-position: 0 -200px;
+}
+/* line 21, ../sass/stylesFooter.scss */
+footer #p2 div {
+  background-position: 0 -100px;
+}
+/* line 29, ../sass/stylesFooter.scss */
+footer #p1 div {
+  background-position: 0 0;
+}
+/* line 35, ../sass/stylesFooter.scss */
+footer #textoOtros {
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+}
+/* line 45, ../sass/stylesFooter.scss */
+footer .boton:hover {
+  background-color: black;
+}
+/* line 50, ../sass/stylesFooter.scss */
+footer .boton {
+  transition: 0.15s;
+  border-radius: 10px;
+  background-color: darkgray;
+}
+/* line 56, ../sass/stylesFooter.scss */
+footer .boton div {
+  width: 100px;
+  height: 100px;
+}
+/* line 63, ../sass/stylesFooter.scss */
+footer div {
+  margin: 5px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (min-width: 450px) {
+  /* line 81, ../sass/stylesFooter.scss */
+  footer {
+    height: 130px;
+  }
+}
+
+
+footer #p1 div, footer #p2 div, footer #p3 div, footer #p4 div 
+{
+  background-image: url('../img/all-s0f5014579b.png');
+  background-repeat: no-repeat;
+}

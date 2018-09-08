@@ -1,0 +1,40 @@
+/* line 1, ../sass/stylesHeader.scss */
+body {
+  margin: 0px;
+}
+
+/* line 6, ../sass/stylesHeader.scss */
+header {
+  padding-left: 60px;
+  padding-top: 4px;
+  background-color: gray;
+  height: 52px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+}
+/* line 8, ../sass/stylesHeader.scss */
+header #texto {
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+}
+/* line 15, ../sass/stylesHeader.scss */
+header #icono {
+  background-image: url('../img/all-s0f5014579b.png');
+  background-position: 0 -725px;
+  width: 50px;
+  height: 50px;
+}
+/* line 22, ../sass/stylesHeader.scss */
+header div {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (min-width: 450px) {
+  /* line 39, ../sass/stylesHeader.scss */
+  header {
+    padding: 4px;
+  }
+}
