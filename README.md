@@ -2,10 +2,13 @@ Talleres Desarrollo Web Avanzado - Juan Pablo Romero Londoño - ID: 000287960
 
 NOTAS importantes Taller 2
 
-El taller es responsive. Sirve para dos tamaños (celulares, (tabletas, PCs).
-Se tiene una sola imagen .png repartida por sprites.
-Por cada sección hay un fichero .css que fue creado por uno .sass
-Se desacopló compass - sass del proyecto.
+- El taller es responsive. Sirve para dos tamaños (celulares, (tabletas, PCs).
+
+- Se tiene una sola imagen .png repartida por sprites.
+
+- Por cada sección hay un fichero .css que fue creado por uno .sass.
+
+- Se desacopló compass - sass del proyecto.
 
 NOTAS importantes Taller 1
 
