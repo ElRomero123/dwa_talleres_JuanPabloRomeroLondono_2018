@@ -2,31 +2,41 @@ footer
 {
     div
     {
-        #tituloFooter
+        #elementos
         {
-            font-size: 35px;
-            font-family: arial;
-            color:white;
-        }
+            div
+            {
+                display: inline-block;
+                margin: 5px;
+                border-radius: 10px;
+                height: 95px;
+                width:  95px;
+                background-color: white;
+            }
 
-        #imgFooter
-        {
-            background:white;
-            width: 50px;
-            height: 50px;
-        }
 
+            padding: 10px;
+            border: 0px;
+            margin: 0px;
+        }
+    
         
+        #titulo
+        {
+            margin: 20px;
+            color: white;
+            font-size: 20px;
+            font-family: arial;
+        }
+    
         div
         {
-            margin: 10px;
+            align-content: center;
             vertical-align: middle;
-            display: inline-block; 
+            display: inline-block;
         }
-
-        margin: 14px;
     }
-
+    
     display: flex;
     justify-content: center;
     bottom: 0px;
@@ -34,5 +44,4 @@ footer
     position: fixed;
     background-color: gray;
     width: 100%;
-    height: 100px;
 }
