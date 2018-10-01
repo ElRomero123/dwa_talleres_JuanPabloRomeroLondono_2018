@@ -2,40 +2,34 @@ footer
 {
     div
     {
-        #elementos
+        #stockPokemon
         {
-            div
+            .pokemon
             {
                 display: inline-block;
-                margin: 5px;
+                margin: 10px;
                 border-radius: 10px;
-                height: 95px;
-                width:  95px;
+                height: 80px;
+                width:  80px;
                 background-color: white;
             }
-
-
-            padding: 10px;
-            border: 0px;
-            margin: 0px;
         }
     
-        
         #titulo
         {
-            margin: 20px;
             color: white;
-            font-size: 20px;
+            font-size: 15px;
             font-family: arial;
+            margin: 0px;
         }
     
         div
         {
-            align-content: center;
             vertical-align: middle;
             display: inline-block;
         }
     }
+
     
     display: flex;
     justify-content: center;
@@ -44,4 +38,85 @@ footer
     position: fixed;
     background-color: gray;
     width: 100%;
+}
+
+@media (min-width: 414px) and (max-width: 767px)
+{
+    footer
+    {
+        div
+        {
+            #stockPokemon
+            {
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+        
+            #titulo
+            {
+                margin: 8px 170px;
+            }
+        }
+    }
+}
+
+@media (min-width: 411px) and (max-width: 413px)
+{
+    footer
+    {
+        div
+        {
+            #stockPokemon
+            {
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+        
+            #titulo
+            {
+                margin: 8px 170px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 360px) and (max-width: 410px)
+{
+    footer
+    {
+        div
+        {
+            #stockPokemon
+            {
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+        
+            #titulo
+            {
+                margin: 8px 150px;
+            }
+        }
+    }
+}
+
+@media (max-width: 359px)
+{
+    footer
+    {
+        div
+        {
+            #stockPokemon
+            {
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+        
+            #titulo
+            {
+                margin: 8px 125px;
+            }
+        }
+    }
 }
