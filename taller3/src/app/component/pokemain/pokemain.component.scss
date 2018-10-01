@@ -1,0 +1,90 @@
+main
+{
+    #inferior
+    {
+        height: 235px;
+    }
+
+    #superior
+    {
+        height: 100px;
+    }
+
+    #principal
+    {
+        #titulo
+        {
+            #icono
+            {
+                width: 25px;
+                height: 25px;   
+                background-color: orangered; 
+            }
+
+            #texto
+            {
+                font-family: arial;
+                color:black;
+                font-size: 25px;
+            }
+
+            div
+            {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 5px;
+            }
+
+            padding-left: 5px;
+            padding-top: 4px;
+            width: 200px;
+            height: 40px;
+            background-color:gray;
+            border-radius: 5px;
+        }
+
+        #imagen
+        {
+            background-color: blue;
+            width: 280px;
+            height: 400px;
+            border-radius: 10px;
+        }
+
+        div
+        {
+            display: flex;
+            margin: 10px auto;
+        }
+    }
+
+    #caracteristicas
+    {
+        background-color: brown;
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        border-radius: 3px;
+    }
+}
+
+
+@media (min-width: 768px)
+{
+    main
+    {
+        #caracteristicas
+        {
+            width: 59%;
+            height: 452px;
+            
+        }
+
+        div
+        {
+            margin-right: 10px;
+            margin-top: 100px;
+            display: inline-block;
+        }
+    }
+}
