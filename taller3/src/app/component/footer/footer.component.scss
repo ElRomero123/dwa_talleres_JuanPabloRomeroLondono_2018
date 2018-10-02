@@ -4,8 +4,14 @@ footer
     {
         #stockPokemon
         {
+            .pokemon:hover
+            {
+                background-color: gray;
+            }
+
             .pokemon
             {
+                transition: 0.15s;
                 display: inline-block;
                 margin: 10px;
                 border-radius: 10px;
