@@ -4,28 +4,37 @@ footer
     {
         #stockPokemon
         {
-            .pokemon:hover
-            {
-                background-color: rgb(71, 11, 11);
+            
 
             #pokemon4
             {
-                background-image: url('../../../assets/p4.png');
+                background-position: 0 -1136px;
             }
 
             #pokemon3
             {
-                background-image: url('../../../assets/p3.png');
+                background-position: 0 -1056px;
             }
 
             #pokemon2
             {
-                background-image: url('../../../assets/p2.png');
+                background-position: 0 -976px;
             }
 
             #pokemon1
             {
-                background-image: url('../../../assets/p1.png');
+                background-position: 0 -896px;
+            }
+
+            #pokemon1, #pokemon2, #pokemon3, #pokemon4
+            {
+            background-image: url('../../../assets/images.png');
+            background-repeat: no-repeat;
+            }
+
+            .pokemon:hover
+            {
+                background-color: rgb(71, 11, 11);
             }
 
             .pokemon
@@ -53,16 +62,17 @@ footer
             vertical-align: middle;
             display: inline-block;
         }
+
+        
     }
 
-    
     display: flex;
-    justify-content: center;
-    bottom: 0px;
-    left: 0px;
-    position: fixed;
-    background-color: gray;
-    width: 100%;
+        justify-content: center;
+        bottom: 0px;
+        left: 0px;
+        position: fixed;
+        background-color: gray;
+        width: 100%;
 }
 
 @media (min-width: 414px) and (max-width: 767px)
