@@ -54,7 +54,45 @@ main
     {
         ul
         {
-            list-style: none;
+            div
+            {
+                #subir
+                {
+                    background-image: url('../../../assets/up.png');
+                }
+
+                #bajar
+                {
+                    background-image: url('../../../assets/down.png');
+                }
+
+                button:hover
+                {
+                    filter: invert(100%);
+                }
+
+                button
+                {
+                    transition: 0.15s;
+                    background-color: transparent;
+                    outline: none;
+                    border: 0px;
+                    display: inline-block;
+                    width: 19px;
+                    height: 25px;
+                    vertical-align: middle;
+                }
+
+                li
+                {
+                    margin: 10px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                margin-top: 0px;
+                margin-left: 20px;
+            }
 
             li
             {
@@ -63,6 +101,7 @@ main
                 font-size: 20px;
                 margin: 20px;
             }
+            list-style: none;
         }
 
         background-color: brown;
@@ -89,8 +128,6 @@ main
         {
             width: 600px;
             height: 320px;
-            
-            
         }
 
         div
