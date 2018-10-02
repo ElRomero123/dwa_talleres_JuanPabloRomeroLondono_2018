@@ -35,9 +35,9 @@ main
 
         #imagen
         {
-            background-color: blue;
-            width: 280px;
-            height: 400px;
+            background-image: url('../../../assets/ch.png');
+            width: 371px;
+            height: 309px;
             border-radius: 10px;
         }
 
@@ -46,40 +46,59 @@ main
             display: flex;
             margin: 10px auto;
         }
+
+        margin: 10px auto;
     }
 
     #caracteristicas
     {
+        ul
+        {
+            list-style: none;
+
+            li
+            {
+                color: white;
+                font-family: arial;
+                font-size: 20px;
+                margin: 20px;
+            }
+        }
+
         background-color: brown;
-        width: 300px;
-        height: 300px;
         margin: 10px auto;
-        border-radius: 3px;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    div
+    {
+        vertical-align: middle;
     }
 
     margin-top: 120px;
     margin-bottom: 250px;
 }
 
-
-@media (min-width: 768px)
+@media (min-width: 1024px)
 {
     main
     {
         #caracteristicas
         {
-            width: 59%;
-            height: 452px;
+            width: 600px;
+            height: 320px;
+            
             
         }
 
         div
         {
-            margin-right: 10px;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 100px;
             display: inline-block;
         }
-
-        margin: 0 auto;
     }
 }
