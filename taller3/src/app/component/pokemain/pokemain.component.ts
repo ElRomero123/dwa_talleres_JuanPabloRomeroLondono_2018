@@ -8,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class PokemainComponent implements OnInit {
    
   puntaje = 10;
+
   constructor() { }
 
   ngOnInit() {
 
   }
-
+  
 }
