@@ -8,7 +8,7 @@ main
             {
                 width: 19px;
                 height: 25px;   
-                background-image: url('../../../assets/llama.png');
+                background-position: 0 -871px;
             }
 
             #texto
@@ -35,7 +35,7 @@ main
 
         #imagen
         {
-            background-image: url('../../../assets/ch.png');
+            background-position: 0 0;
             width: 281px;
             height: 234px;
             border-radius: 10px;
@@ -58,12 +58,12 @@ main
             {
                 #subir
                 {
-                    background-image: url('../../../assets/up.png');
+                    background-position: 0 -1216px;
                 }
 
                 #bajar
                 {
-                    background-image: url('../../../assets/down.png');
+                    background-position: 0 -234px;
                 }
 
                 button:hover
@@ -138,4 +138,10 @@ main
             display: inline-block;
         }
     }
+}
+
+#bajar, #subir, #imagen, #icono
+{
+    background-image: url('../../../assets/images.png');
+    background-repeat: no-repeat;
 }
