@@ -4,6 +4,30 @@ footer
     {
         #stockPokemon
         {
+            .pokemon:hover
+            {
+                background-color: rgb(71, 11, 11);
+
+            #pokemon4
+            {
+                background-image: url('../../../assets/p4.png');
+            }
+
+            #pokemon3
+            {
+                background-image: url('../../../assets/p3.png');
+            }
+
+            #pokemon2
+            {
+                background-image: url('../../../assets/p2.png');
+            }
+
+            #pokemon1
+            {
+                background-image: url('../../../assets/p1.png');
+            }
+
             .pokemon
             {
                 transition: 0.15s;
