@@ -6,9 +6,9 @@ main
         {
             #icono
             {
-                width: 25px;
+                width: 19px;
                 height: 25px;   
-                background-color: orangered; 
+                background-image: url('../../../assets/llama.png');
             }
 
             #texto
@@ -36,8 +36,8 @@ main
         #imagen
         {
             background-image: url('../../../assets/ch.png');
-            width: 371px;
-            height: 309px;
+            width: 281px;
+            height: 234px;
             border-radius: 10px;
         }
 
