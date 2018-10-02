@@ -1,0 +1,141 @@
+main
+{
+    #principal
+    {
+        #titulo
+        {
+            #icono
+            {
+                width: 19px;
+                height: 25px;   
+                background-image: url('../../../assets/llama.png');
+            }
+
+            #texto
+            {
+                font-family: arial;
+                color:black;
+                font-size: 25px;
+            }
+
+            div
+            {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 5px;
+            }
+
+            padding-left: 5px;
+            padding-top: 4px;
+            width: 200px;
+            height: 40px;
+            background-color:gray;
+            border-radius: 5px;
+        }
+
+        #imagen
+        {
+            background-image: url('../../../assets/ch.png');
+            width: 281px;
+            height: 234px;
+            border-radius: 10px;
+        }
+
+        div
+        {
+            display: flex;
+            margin: 10px auto;
+        }
+
+        margin: 10px auto;
+    }
+
+    #caracteristicas
+    {
+        ul
+        {
+            div
+            {
+                #subir
+                {
+                    background-image: url('../../../assets/up.png');
+                }
+
+                #bajar
+                {
+                    background-image: url('../../../assets/down.png');
+                }
+
+                button:hover
+                {
+                    filter: invert(100%);
+                }
+
+                button
+                {
+                    transition: 0.15s;
+                    background-color: transparent;
+                    outline: none;
+                    border: 0px;
+                    display: inline-block;
+                    width: 19px;
+                    height: 25px;
+                    vertical-align: middle;
+                }
+
+                li
+                {
+                    margin: 10px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                margin-top: 0px;
+                margin-left: 20px;
+            }
+
+            li
+            {
+                color: white;
+                font-family: arial;
+                font-size: 20px;
+                margin: 20px;
+            }
+            list-style: none;
+        }
+
+        background-color: brown;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    div
+    {
+        vertical-align: middle;
+    }
+
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+
+@media (min-width: 1024px)
+{
+    main
+    {
+        #caracteristicas
+        {
+            width: 600px;
+            height: 320px;
+        }
+
+        div
+        {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            display: inline-block;
+        }
+    }
+}

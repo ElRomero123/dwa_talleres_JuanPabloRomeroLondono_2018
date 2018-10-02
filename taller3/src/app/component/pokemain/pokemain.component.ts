@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pokemain.component.scss']
 })
 export class PokemainComponent implements OnInit {
+   
+  puntaje = 10;
 
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
+  
 }
