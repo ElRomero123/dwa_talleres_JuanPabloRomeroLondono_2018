@@ -4,72 +4,28 @@ main
     {
         #stockPokemon
         {
-            #pokemon4
+            .caja
             {
-                background-position: 0 -1136px;
-            }
-
-            #pokemon3
-            {
-                background-position: 0 -1056px;
-            }
-
-            #pokemon2
-            {
-                background-position: 0 -976px;
-            }
-
-            #pokemon1
-            {
-                background-position: 0 -896px;
-            }
-
-            #pokemon1, #pokemon2, #pokemon3, #pokemon4
-            {
-            background-image: url('../../../assets/images.png');
-            background-repeat: no-repeat;
-            }
-
-            .pokemon:hover
-            {
-                background-color: rgb(71, 11, 11);
-            }
-
-            .pokemon
-            {
-                transition: 0.15s;
+                background: black;
                 display: inline-block;
-                margin: 10px;
-                border-radius: 10px;
-                height: 80px;
-                width:  80px;
-                background-color: white;
+                margin: 2px;
+                width: 150px;
+                height: 150px;
             }
+
+            text-align: center;
+            margin: 0px auto;
         }
-    
+
         #titulo
         {
-            color: white;
-            font-size: 15px;
+            color: black;
             font-family: arial;
-            margin: 0px;
+            font-size: 30px;
+            margin-bottom: 10px;
+            text-align: center;
         }
-    
-        div
-        {
-            vertical-align: middle;
-            display: inline-block;
-        }  
+
+        margin: 110px auto;
     }
-
-    /*
-
-    display: flex;
-    justify-content: center;
-    bottom: 0px;
-    left: 0px;
-    position: fixed;
-    background-color: gray;
-    width: 100%;
-    */
 }
