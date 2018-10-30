@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PokemonService } from '../../services/pokemon.service';
+import { Router } from '@angular/router';
 
 @Component
 (
@@ -14,7 +15,7 @@ import { PokemonService } from '../../services/pokemon.service';
 export class HomePokemonsComponent implements OnInit 
 {
   public pokemons: JSON;
-  constructor(private _pokemonService: PokemonService) 
+  constructor(private _pokemonService: PokemonService, private _route:Router) 
   {
     
   }
@@ -22,5 +23,8 @@ export class HomePokemonsComponent implements OnInit
   ngOnInit() 
   {
         this.pokemons = this._pokemonService.getPokemons();
+  }
+  goToRequests() {
+    this._route.navigate(['/requests']);
   }
 }
