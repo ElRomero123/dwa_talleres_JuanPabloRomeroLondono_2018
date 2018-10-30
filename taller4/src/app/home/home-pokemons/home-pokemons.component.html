@@ -3,8 +3,8 @@
       <p id="titulo">Lista de Pokémon</p>
 
       <div id="stockPokemon" >
-          <button id="{{pokemon.id}}" class="caja" (click) = "goToRequests();" *ngFor="let pokemon of pokemons.pokemons"> <img src="{{pokemon.url}}" /> <p> {{ pokemon.name }} </p> </button>
+          <button routerLink = "/detail/{{pokemon.id}}" id="{{pokemon.id}}" class="caja" *ngFor="let pokemon of pokemons.pokemons"> <img src="{{pokemon.url}}" /> <p> {{ pokemon.name }} </p> </button>
+          
       </div>
-  
     </div>
 </main>
