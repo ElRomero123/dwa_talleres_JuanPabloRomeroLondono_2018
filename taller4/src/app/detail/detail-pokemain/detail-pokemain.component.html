@@ -1,10 +1,28 @@
 <main>
-  <div>
-    <p id="titulo">Lista de Pokémon</p>
 
-    <div id="listCaracteristicas" >
-      <!-- <button routerLink = "detail" id="{{pokemon.id}}" class="caja" *ngFor="let pokemon of pokemons.pokemons"> <img src="{{pokemon.url}}" /> <p> {{ pokemon.name }} </p> </button> -->
-  </div>
+    <div id="principal">
+        <div id="titulo">
+            <div id="icono"></div>
+            <div id="texto" routerLink = "/">CHARIZARD</div>
+        </div>
+        <div id="imagen"></div>   
+    </div>
 
-  </div>
+    <div id="caracteristicas" *ngFor="let pokemon of pokemons.pokemons">
+        <ul>
+            <li>FEATURES</li>
+            <li>Altura: {{pokemon.name}}</li>
+            <li>Peso: {{pokemon.id}}</li>
+            <li>Categoría: {{pokemon.name}}</li>
+            <li>Habilidad: {{pokemon.url}}</li>
+            <li>Sexo: {{pokemon.id}}</li>
+            
+            <div>
+                <button id="subir" (click)="puntaje = puntaje + 1"></button>
+                <li>{{puntaje}}</li>
+                <button id="bajar" (click)="puntaje = puntaje - 1"></button>
+            </div>   
+        </ul>
+    </div>
+
 </main>

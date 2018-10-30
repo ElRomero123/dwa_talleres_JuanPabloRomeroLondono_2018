@@ -1,16 +1,148 @@
 main
 {
-    div
+    #principal
     {
         #titulo
         {
-            color: black;
-            font-family: arial;
-            font-size: 30px;
-            margin-bottom: 10px;
-            text-align: center;
+            #icono
+            {
+                width: 19px;
+                height: 25px;   
+                background-position: 0 -871px;
+            }
+
+            #texto
+            {
+                cursor: pointer;
+                font-family: arial;
+                color:black;
+                font-size: 25px;
+            }
+
+            div
+            {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 5px;
+            }
+
+            padding-left: 5px;
+            padding-top: 4px;
+            width: 200px;
+            height: 40px;
+            background-color:gray;
+            border-radius: 5px;
         }
 
-        margin: 110px auto;
+        #imagen
+        {
+            background-position: 0 0;
+            width: 281px;
+            height: 234px;
+            border-radius: 10px;
+        }
+
+        div
+        {
+            display: flex;
+            margin: 10px auto;
+        }
+
+        margin: 10px auto;
     }
+
+    #caracteristicas
+    {
+        ul
+        {
+            div
+            {
+                #subir
+                {
+                    background-position: 0 -1216px;
+                }
+
+                #bajar
+                {
+                    background-position: 0 -234px;
+                }
+
+                button:hover
+                {
+                    filter: invert(100%);
+                }
+
+                button
+                {
+                    transition: 0.15s;
+                    background-color: transparent;
+                    outline: none;
+                    border: 0px;
+                    display: inline-block;
+                    width: 19px;
+                    height: 25px;
+                    vertical-align: middle;
+                }
+
+                li
+                {
+                    margin: 10px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                margin-top: 0px;
+                margin-left: 20px;
+            }
+
+            li
+            {
+                color: white;
+                font-family: arial;
+                font-size: 20px;
+                margin: 20px;
+            }
+            list-style: none;
+        }
+
+        background-color: brown;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    div
+    {
+        vertical-align: middle;
+    }
+
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+
+@media (min-width: 1024px)
+{
+    main
+    {
+        #caracteristicas
+        {
+            width: 600px;
+            height: 320px;
+        }
+
+        div
+        {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            display: inline-block;
+        }
+    }
+}
+
+#bajar, #subir, #imagen, #icono
+{
+    background-image: url('../../../assets/images.png');
+    background-repeat: no-repeat;
 }
