@@ -8,14 +8,14 @@
         <div id="imagen"></div>   
     </div>
 
-    <div id="caracteristicas" *ngFor="let pokemon of pokemons.pokemons">
+    <div id="caracteristicas" *ngFor = "let pokemon of BDPokemons.pokemons;  let i= index;">
         <ul>
             <li>FEATURES</li>
-            <li>Altura: {{pokemon.name}}</li>
-            <li>Peso: {{pokemon.id}}</li>
+            <li>Altura: {{i+1}} - {{pokemon.name}}</li>
+            <li>Peso: {{pokemon.name}}</li>
             <li>Categoría: {{pokemon.name}}</li>
-            <li>Habilidad: {{pokemon.url}}</li>
-            <li>Sexo: {{pokemon.id}}</li>
+            <li>Habilidad: {{pokemon.name}}</li>
+            <li>Sexo: {{pokemon.name}}</li>
             
             <div>
                 <button id="subir" (click)="puntaje = puntaje + 1"></button>
