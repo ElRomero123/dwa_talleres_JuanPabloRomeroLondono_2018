@@ -13,10 +13,14 @@ import { ActivatedRoute } from '@angular/router';
 
 export class DetailPokemainComponent implements OnInit 
 {
-  public BDPokemons: JSON;
-  public puntaje = 10;
-  public id = this._route.snapshot.paramMap.get('id');
-  
+  public Name:String;
+  public Altura:String;
+  public Peso:String;
+  public Categoria:String;
+  public Habilidad:String;
+  public Sexo:String;
+
+  Puntaje = 10;
   
   constructor(private _route: ActivatedRoute, private _pokemonService: PokemonService) 
   {
@@ -24,6 +28,11 @@ export class DetailPokemainComponent implements OnInit
 
   ngOnInit() 
   {
-    this.BDPokemons = this._pokemonService.getPokemons();
+    this.Name = this._route.snapshot.paramMap.get('name');
+    this.Altura = this._route.snapshot.paramMap.get('altura');
+    this.Peso = this._route.snapshot.paramMap.get('peso');
+    this.Categoria = this._route.snapshot.paramMap.get('categoria');
+    this.Habilidad = this._route.snapshot.paramMap.get('habilidad');
+    this.Sexo = this._route.snapshot.paramMap.get('sexo');
   }
 }
