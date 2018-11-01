@@ -36,10 +36,8 @@ main
 
         #imagen
         {
-            background-position: 0 0;
             width: 281px;
             height: 234px;
-            border-radius: 10px;
         }
 
         div
@@ -141,7 +139,7 @@ main
     }
 }
 
-#bajar, #subir, #imagen, #icono
+#bajar, #subir, #icono
 {
     background-image: url('../../../assets/images.png');
     background-repeat: no-repeat;

@@ -3,7 +3,7 @@
       <p id="titulo">Lista de Pokémon</p>
 
       <div id="stockPokemon" >
-          <button routerLink = "/detail/{{pokemon.name}}/{{pokemon.altura}}/{{pokemon.peso}}/{{pokemon.categoria}}/{{pokemon.habilidad}}/{{pokemon.sexo}}" id="{{pokemon.id}}" class="caja" *ngFor="let pokemon of pokemons.pokemons"> <img src="{{pokemon.url}}" /> <p> {{ pokemon.name }} </p> </button>
+          <button routerLink = "/detail/{{pokemon.name}}/{{pokemon.altura}}/{{pokemon.peso}}/{{pokemon.categoria}}/{{pokemon.habilidad}}/{{pokemon.sexo}}/{{pokemon.id}}" id="{{pokemon.id}}" class="caja" *ngFor="let pokemon of pokemons.pokemons"> <img src="{{pokemon.url}}" /> <p> {{ pokemon.name }} </p> </button>
       </div>
     </div>
 </main>

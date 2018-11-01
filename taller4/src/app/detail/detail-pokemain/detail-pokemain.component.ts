@@ -19,6 +19,7 @@ export class DetailPokemainComponent implements OnInit
   public Categoria:String;
   public Habilidad:String;
   public Sexo:String;
+  public Id:String;
 
   Puntaje = 10;
   
@@ -34,5 +35,8 @@ export class DetailPokemainComponent implements OnInit
     this.Categoria = this._route.snapshot.paramMap.get('categoria');
     this.Habilidad = this._route.snapshot.paramMap.get('habilidad');
     this.Sexo = this._route.snapshot.paramMap.get('sexo');
+    this.Id = this._route.snapshot.paramMap.get('id');
+
+    document.getElementById('imagen').style.background = "url('../../../assets/imgDetail/" + this.Id + ".png')";
   }
 }
