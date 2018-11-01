@@ -7,7 +7,7 @@ import { HomePokemonsComponent } from './home/home-pokemons/home-pokemons.compon
 const appRoutes: Routes = 
 [
     { path:'', component:HomePokemonsComponent  },
-    { path:'detail/:name/:altura/:peso/:categoria/:habilidad/:sexo:/:id', component:DetailPokemainComponent }
+    { path:'detail/:name/:altura/:peso/:categoria/:habilidad/:sexo/:id', component:DetailPokemainComponent }
 ];
 
 export const appRoutingProviders: any = [];
